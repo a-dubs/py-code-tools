@@ -101,7 +101,7 @@ for li in range(len(lines)):
     line, sl = lines[li] , line.split()   # update current line alias (line) and split line alias (sl)
     # extend '/'s to col 0
     if "//<" == sl[0]:
-        pass
+        
 
     line, sl = lines[li] , line.split()   # update current line alias (line) and split line alias (sl)
     # extend '/'s to EOL
@@ -110,7 +110,7 @@ for li in range(len(lines)):
 
     line, sl = lines[li] , line.split()   # update current line alias (line) and split line alias (sl)
     # function needs dividers appended
-    if "}/" in line:
+    if "}" in line:
         brackets_unclosed = 0
         for li2 in range(li,len(lines)):
             line2 = lines[li2]
