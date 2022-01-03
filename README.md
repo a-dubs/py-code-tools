@@ -1,6 +1,7 @@
 # py-code-tools
-First project: Auto comment formatting for common programming languages I use
-
+Various projects contained in this repo:
+ - Auto comment formatting for common programming languages I use
+ - Macro recorder - records both mouse and keyboard input with adjustable delays between key strokes and mouse events
 
 ## Auto-Formatting Macros 
 
